@@ -11,3 +11,10 @@ In this project a prediction model is developed to predict if a customer will ch
 **IDE:** Google Colab <br>
 **Dashboard Software:** Google Data Studio <br>
 **Dataset:** https://www.kaggle.com/sakshigoyal7/credit-card-customers 
+
+## Data Gathering
+
+The dataset used in this project can be downloaded from Kaggle (link as shown above). It is about bank credit card customer churn, focusing on customer retention program to identify/predict if an existing customer will churn so that the bank can take necessary actions to retain the customer to continue with the credit card service. This dataset consist of 10127 rows and 14 features. The information of the dataset includes: <br>
+* Customers, existing and churned
+* Demograhpic info - age, marital status, number of dependent, education level and income
+* Credit card account information - (transcation count, transaction amount, revolving balance) in the past 12 months, tenure and credit limit

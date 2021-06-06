@@ -18,3 +18,13 @@ The dataset used in this project can be downloaded from Kaggle (link as shown ab
 * Customers, existing and churned
 * Demograhpic info - age, marital status, number of dependent, education level and income
 * Credit card account information - (transcation count, transaction amount, revolving balance) in the past 12 months, tenure and credit limit
+
+One thing to take note is that the dataset is with imbalance sample where 8700 records are existing customers and 1627 records are churned customers. 
+
+## Data Cleaning
+
+Based on the given dataset, it is ready to use for analysis. 
+
+## EDA
+
+

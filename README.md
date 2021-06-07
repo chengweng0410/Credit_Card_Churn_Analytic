@@ -34,10 +34,4 @@ Based on the given dataset, it is ready to use for analysis.
 #### Dataset Information 
 ![](/images/BCA_cust_info.png) 
 
-<br> Based on the findings, it can be seen that 
-* there is total of 10127 records
-* number of existing customer (8500, 83.93%) is higher than attrited customer (1627, 16.07%)
-* number of female customer (5358) is ihigher than male (4769)
-* 2732 customers are with 3 dependents, followed by 2655 customers having 2 and 1838 customers with 1 dependent. 1574 customers with 4 dependents, 904 customers without dependent and 424 customers with 5 dependents. The range of dependent is 0 to 5
-* there are 4 marital status which are Married (4687), Single (3943), Unknown (749) and Divorced (748) 
-* there are 4 card categories (4 credit card products), Blue, Gold, Silver and Platinium. 9436 (93.18%) customers are with Blue card, followed by 555 (5.48%)customers with Silver and 116 (1.15%) customers with Gold cards. Platinium card holder is the least, which is 20 (0.18%) customers. Blue card is the main income stream as compared to the rest of the cards.
+

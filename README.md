@@ -50,10 +50,10 @@ Based on the given dataset, it is ready to use for analysis.
 ![](/images/4.BCA_education.png)
 <br> 3128 customers are with Bachelor qualification, 2013 customers with High School qualification, 1519 uneducated, 1013 with college qalification, 516 with post-graduate and 451 with Doctorate qualification. 
 
-#### Annual Income Distribution
+#### Tenure with the Bank (Monthly)
 ![](/images/5.BCA_tenure.png)
 <br> Tenure of 36 months is extremely high as compared with the rest (2463 customers). This may due to the bank has lauched a new credit card or offering attractive free gift upon credit card application at the point of time. <br> Other than that, tenures of the customers are spreaded in between 13 to 56 months and mostly with 24 to 48 months of tenures.
 
-#### Annual Income Distribution
+#### Credit Limit Distribution
 ![](/images/6.BCA_credit_limit.png)
 <br> Based on the graph, it can be seen that the higher the credit limit, the lower the number of customers. However, there is a high number of customer with about RM34000 credit limit.

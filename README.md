@@ -57,3 +57,15 @@ Based on the given dataset, it is ready to use for analysis.
 #### Credit Limit Distribution
 ![](/images/6.BCA_credit_limit.png)
 <br> Based on the graph, it can be seen that the higher the credit limit, the lower the number of customers. However, there is a high number of customer with about RM34000 credit limit.
+
+#### Total Revolving Balance (Past 12 Months) Distribution
+![](/images/7.BCA_revol_bal.png.png)
+<br>
+
+#### Total Transcation Amount (Past 12 Months) Distribution
+![](/images/8.BCA_tran_amt.png)
+<br> Based on the graph, it can be seen that most of the transcations are in between RM500 to RM5000. There are also two groups of customers with transcation amount in between RM7000 to RM10000 and RM12500 to RM117500.
+
+#### Total Transcation Count (Past 12 Months) Distribution
+![](/images/9.BCA_tran_cnt.png)
+<br> Based on the finding, it can be seen that most of the customers are making 20 to 120 transactions per year. 

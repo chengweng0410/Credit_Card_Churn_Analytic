@@ -41,3 +41,11 @@ Based on the given dataset, it is ready to use for analysis.
 * 2732 customers are with 3 dependents, followed by 2655 customers having 2 and 1838 customers with 1 dependent. 1574 customers with 4 dependents, 904 customers without dependent and 424 customers with 5 dependents. The range of dependent is 0 to 5
 * there are 4 marital status which are Married (4687), Single (3943), Unknown (749) and Divorced (748) 
 * there are 4 card categories (4 credit card products), Blue, Gold, Silver and Platinium. 9436 (93.18%) customers are with Blue card, followed by 555 (5.48%)customers with Silver and 116 (1.15%) customers with Gold cards. Platinium card holder is the least, which is 20 (0.18%) customers. Blue card is the main income stream as compared to the rest of the cards.
+
+#### Annual Income Distribution
+![](/images/3.BCA_income.png) 
+<br> There are 3561 customers with < RM40K annual income. This is followed by 1790 customers with RM40 - RM60k, 1535 customers with RM80 - RM120k, 1402 customers with RM60k - RM80k and the least, 727 customers with > RM120k annual incomes. There are 1112 customers with unknown annual income (may be dependent of a principal card holder). 
+
+#### Annual Income Distribution
+![](/images/4.BCA_education.png)
+<br> 3128 customers are with Bachelor qualification, 2013 customers with High School qualification, 1519 uneducated, 1013 with college qalification, 516 with post-graduate and 451 with Doctorate qualification. 

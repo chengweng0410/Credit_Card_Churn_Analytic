@@ -27,4 +27,8 @@ Based on the given dataset, it is ready to use for analysis.
 
 ## EDA
 
+#### Heatmap of correlation between the features 
+![](/images/1.BCA_heatmap.png)
+
+
 

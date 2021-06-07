@@ -32,7 +32,7 @@ Based on the given dataset, it is ready to use for analysis.
 <br>Based on the heatmap, it can be seen that the correlation between Customer_Status_code with Credit_Limit Total_Trans_Amt (RM), Total_Trans_Ct and Total_Revolving_Bal (RM) are with negative assosciation (<0). For Total_Revolving_Bal (RM) and Total_Trans_Ct, the relationships with Customer_Status_code are considered high (the lower the values, the higher the possibility a customer will churn). <br> As for the rest of the variables, there are with positive association with Customer_Status_Code. However, the values are closer to zero, which means there is no linear relationship with Customer_Status_code.   
 
 #### Dataset Information 
-![](/images/BCA_cust_info.png)
+![](/images/BCA_cust_info.png) 
 
 <br> Based on the findings, it can be seen that 
 * there is total of 10127 records

@@ -59,8 +59,8 @@ Based on the given dataset, it is ready to use for analysis.
 <br> Based on the graph, it can be seen that the higher the credit limit, the lower the number of customers. However, there is a high number of customer with about RM34000 credit limit.
 
 #### Total Revolving Balance (Past 12 Months) Distribution
-![](/images/7.BCA_revol_bal.png.png)
-<br>
+![](/images/7.BCA_revol_bal.png)
+<br> 
 
 #### Total Transcation Amount (Past 12 Months) Distribution
 ![](/images/8.BCA_tran_amt.png)

@@ -124,30 +124,29 @@ Based on the given dataset, it is ready to use for analysis.
 ![](/images/21.BCA_ex_vs_age.png)
 <br> Bsaed on the finding, it can be seen that customers with the ages of 35 to 60 are tend to churn. Less churner before age of 35 may due to the customers are still new and would like to stay with the bank for some period to enjoy the privillage. For the age after 60, there are also less churner as the customers may face difficulties in applying new credit card with other bank. 
 
-#### 
-![](/images/)
+#### Distribution of Customer\'s Tenure in Monthly Basis
+![](/images/22.BCA_ex_vs_tenure.png)
+<br> As for the tenure, there is a lot of customers with tenure of 36 months. This may due to the bank was offering a good promotion/benefit at the point of time of application. Also, the number of churners with tenure of 36 months are also high. Based on the finding, it shows that most of the churned customers are with RM5000 (or less) credit limit. 
+
+#### Distribution of Customer\'s Credit Limit With 36 Months Tenure
+![](/images/23.BCA_ex_vs_creditlim_36tenure.png)
 <br> 
 
-#### 
-![](/images/)
-<br> 
+#### Distribution of Customer\'s Tenure in Years
+![](/images/24.BCA_ex_vs_tenureYear.png)
+<br> Based on the graphs, it can be seen that 72.77% of the churners are with tenure of 3 years, followed by 28.83% with 2 years tenure, 8.48% with 4 years tenures and 6.02% with 1 year tenure. <br> Besides, it is suprise that tenure month of 36 is with the highest number of customer. This may due to the bank provides attractive promotion of benefits to the applicants who applied to the bank at the point of time.
 
-#### 
-![](/images/)
-<br> 
+#### Total Transaction Amount vs Total Transaction Count
+![](/images/25.BCA_tranAnt_vs_transCnt.png)
+<br> Based on the graph, it further supports earlier finding, where the lower transaction count and total transaction amount per year the higher the chance a customer will churn.
 
-#### 
-![](/images/)
-<br> 
+#### Distribution of Total Transaction Count (pass 12 months) based on Number of Dependent
+![](/images/26.BCA_tranCnt_vs_dependent.png)
 
-#### 
-![](/images/)
-<br> 
+#### Distribution of Total Transaction Amount (pass 12 months) based on Number of Dependent
+![](/images/27.BCA_tranAmt_vs_dependent.png)
+<br> Based on the findings, it can be seen that customers with 2-3 dependents are making higher transcation as compared to 0-1 and 4-5 dependents. However, the customers with 100 transcation counts (or less than RM11,000 total transaction amount) or lesser are tend to churn, regardless of the number of dependents. 
 
-#### 
-![](/images/)
-<br> 
-
-#### 
-![](/images/)
-<br> 
+#### Distribution of Credit Limit based on Gender
+![](/images/28.BCA_limit_vs_gender.png)
+<br> Based on the finding, it can be seen that the churn of a customer does not affected by the credit limit and the gender. However, female customers are with a lower credit limit as compared with male customers.

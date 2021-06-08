@@ -69,3 +69,85 @@ Based on the given dataset, it is ready to use for analysis.
 #### Total Transcation Count (Past 12 Months) Distribution
 ![](/images/9.BCA_tran_cnt.png)
 <br> Based on the finding, it can be seen that most of the customers are making 20 to 120 transactions per year. 
+
+#### Existing and Attrited Customer vs Gender
+![](/images/10.BCA_ex_vs_churn.png)
+<br> Female tend to churn as compared to male customer. 960 female, 57.16% ahd 697 male, 42.84% had churned. 
+
+#### Existing and Attrited Customer vs Number of Dependent
+![](/images/11.BCA_ex_vs_churn_dependent.png)
+<br> 
+
+#### Existing and Attrited Customer vs Education Level
+![](/images/12.BCA_ex_vs_churn_edu.png)
+<br> Based on the graph,
+* Customer with Graduate qualification is with the highest churn rate, 29.93%
+* Doctorate qualification is with the lowest churn rate, 5.84%
+
+#### Existing and Attrited Customer vs Marital Status
+![](/images/13.BCA_ex_vs_churn_marital.png)
+<br> Marital status of Married and Single are more likely to churn (709, 43.58% and 668, 41.06%, respectively), as compared with marital status of unknown (129, 7.93%) or divorced (121, 7.44%). 
+
+#### Existing and Attrited Customer vs Income Category
+![](/images/14.BCA_ex_vs_churn_income.png)
+<br> Based on the graph,
+* Annual income that is less than RM40k is with the highest churn rate, 37.61%, 612 customers
+* 7.74%, 126 of the churners are with at least RM120k annual income.
+* The higher the annual income, the less likely a customer will churn.
+
+#### Existing and Attrited Customer vs Card Category
+![](/images/15.BCA_ex_vs_churn_cardcat.png)
+<br> Churned customers mainly from Blue card holder. May look into the campaign that can retain this group of customer. <br>
+93.36% with Blue card, 5.04% with Silver card, 1.29% with Gold card and 0.31% with Platinum card.
+
+#### Distribution of Customer\'s Credit Limit for Different Card Types
+![](/images/16.BCA_ex_vs_churn_card_details.png)
+<br> Based on the graphs, it can be seen that Blue card holders with credit limit of less than RM5000 are more likely to churn. <br> Besides, customers are more likely to churn with credit limit in between RM30000 to RM35000, regardless of the card types.
+
+#### Distribution of Customer\'s Total Revolving Balance (RM) in the Past 12 Months
+![](/images/17.BCA_ex_vs_churn_revol.png)
+<br> Based on the graph, it is found that revolving balance of less than RM500 and above RM2300 are likely to churn. <br> For those with revolving balance less than RM500, the churn may due to they would like to go for other bank with better benefit. As for revolving balance of more than RM2300, this may due to other bank is providing a lower interest rate for outstanding balance transfer benefit.
+
+#### Distribution of Customer\'s Total Transaction Amount (RM) in the Past 12 Months
+![](/images/18.BCA_ex_vs_churn_tranAmt.png)
+<br> Based on the graph, the lower the total transcation amount pear year, the more likely a customer will churn. Customers with RM2500 (or less) total transaction amount are more likely to churn. Most of the customers are with RM5000 (or less) total transaction amount per year.
+
+#### Distribution of Customer\'s Total Transaction Count in the Past 12 Months
+![](/images/19.BCA_ex_vs_churn_tranCnt.png)
+<br> Based on the graph, it can be seen that customers with a lower transcation count (80 transcations) in the past 12 months are more likely to churn. 
+
+#### Distribution of Customer\'s Credit Limit
+![](/images/20.BCA_ex_vs_creditlim.png)
+<br> Based on the graph, it can be seen that customers with credit limit that are less than RM10000 are more likely to churn. The number of churn customers are higher if the credit limit is RM5000 and below. <br> Besides, there are also a group of customers with credit limit in between RM30000 to RM35000 have churned.
+
+#### Distribution of Customer\'s Age
+![](/images/21.BCA_ex_vs_age.png)
+<br> Bsaed on the finding, it can be seen that customers with the ages of 35 to 60 are tend to churn. Less churner before age of 35 may due to the customers are still new and would like to stay with the bank for some period to enjoy the privillage. For the age after 60, there are also less churner as the customers may face difficulties in applying new credit card with other bank. 
+
+#### 
+![](/images/)
+<br> 
+
+#### 
+![](/images/)
+<br> 
+
+#### 
+![](/images/)
+<br> 
+
+#### 
+![](/images/)
+<br> 
+
+#### 
+![](/images/)
+<br> 
+
+#### 
+![](/images/)
+<br> 
+
+#### 
+![](/images/)
+<br> 

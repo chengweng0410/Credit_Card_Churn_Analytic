@@ -166,6 +166,7 @@ Also, we will first develop a machine learning model by using the imbalace data.
 
 ## Performane Evaluation
 
+#### Machine Learning Models with Imbalance Data Sample 
 Performance of the model as follows: <br>
 * LogisticRegression - 86.36%
 * **RandomForestClassifier - 92.53%**
@@ -174,10 +175,17 @@ Performance of the model as follows: <br>
 
 ![](/images/29.model_performance_basic.png)
 
-Based on the result, RandomForestClassifier is able to produce the best accuracy score, which is 92.53%. However, the value for the recall and R1 are extremely low. 
+Based on the result, RandomForestClassifier is able to produce the best accuracy score, which is 92.53%. However, the value for the recall and R1 are extremely low (for Logistic Regression and KNeighborsClassifier. 
 
 ![](/images/33.LR_report.png)
 ![](/images/34.RF_report.png)
 ![](/images/35.SVC_report.png)
 ![](/images/36.kNeigh_report.png)
+
+#### Machine Learning Models with Under-Sampling Method in Treating Imbalance Data Sample
+
+![](/images/37.LR_report_us.png)
+![](/images/38.RF_report_us.png)
+![](/images/39.SVC_report_us.png)
+![](/images/40.kNeigh_report_us.png)
 

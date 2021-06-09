@@ -190,12 +190,14 @@ Performance of the model as follows: <br>
 * SVC - 89.47%
 * KNeighborsClassifier - 52.71%
 
+![](/images/31.model_performance_SMOTE.png)
+
 Based on the results, Random Forest classifier is the model that able to provide the best prediction output. 
 
 In this section, will try to use random **Under-Sampling Method** to deal with imbalanced classes 
 
-![](/images/37.LR_report_us.png)
-![](/images/38.RF_report_us.png)
-![](/images/39.SVC_report_us.png)
-![](/images/40.kNeigh_report_us.png)
+![](/images/41.LR_report_us_smote.png)
+![](/images/42.RF_report_smote.png)
+![](/images/43.SVC_report_smote.png)
+![](/images/44.kNeigh_report_smote.png)
 

@@ -150,3 +150,17 @@ Based on the given dataset, it is ready to use for analysis.
 #### Distribution of Credit Limit based on Gender
 ![](/images/28.BCA_limit_vs_gender.png)
 <br> Based on the finding, it can be seen that the churn of a customer does not affected by the credit limit and the gender. However, female customers are with a lower credit limit as compared with male customers.
+
+## Model Building
+
+Prior to the model building, the data that is with non numeric type (Customer_Status) has to be converted to numeric value. **LabelEncoder** from **sklearn.preprocesing** is used to accomplish the conversion task. Besides that, **MinMaxScaler** from **sklearn.preprocesing** is also used to scale the values of Credit_Limit, Total_Revolving_Bal (RM), Total_Trans_Amt (RM) and Total_Trans_Ct into range of 0 to 1. Reason being this feature is measured at different scale and do not contribute equally in model training and may ended with creating a bias. <br> 
+
+**train_test_split** from **sklearn.model_selection** is also used to separat the dataset into training and testing set of data. In this project, 80% of the dataset is used as training set and the remaining 20% is used as testing set. <br>
+Three models have been selected: <br>
+* LogisticRegression
+* RandomForestClassifier
+* SVC
+* KNeighborsClassifier  
+
+Also, we will first develop a machine learning model by using the imbalace data. Results generated will be observed. Then, another model will be developed and trained by using balanced data that treated by Under-Sampling, Random-Over Sampling and SMOTE methods.
+

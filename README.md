@@ -171,6 +171,7 @@ Performance of the model as follows: <br>
 * RandomForestClassifier - 92.53%
 * SVC - 92.43%
 * KNeighborsClassifier - 83.16%
+*<br>
 ![](/images/29.model_performance_basic.png)
 
 Based on the result, LogisticRegression is able to produce the best accuracy score, which is 79.62%.

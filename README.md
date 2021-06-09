@@ -175,29 +175,32 @@ Performance of the model as follows: <br>
 
 ![](/images/29.model_performance_basic.png)
 
-Based on the result, RandomForestClassifier is able to produce the best accuracy score, which is 92.53%. However, the value for the recall and R1 are extremely low (for Logistic Regression and KNeighborsClassifier). 
+Based on the result, RandomForestClassifier is able to produce the best accuracy score, which is 92.53%. However, the value for the recall and R1 are extremely low (for Logistic Regression (less than 40%) and KNeighborsClassifier (less than 10%)). 
 
 ![](/images/33.LR_report.png)
 ![](/images/34.RF_report.png)
 ![](/images/35.SVC_report.png)
 ![](/images/36.kNeigh_report.png)
 
-#### Machine Learning Models with Under-Sampling Method in Treating Imbalance Data Sample
+#### Machine Learning Models with Synthetic Minority Oversampling Technique (SMOTE) in Treating Imbalance Data Sample
 
 Performance of the model as follows: <br>
-* LogisticRegression - 77.45%
-* **RandomForestClassifier - 89.59%**
-* SVC - 89.47%
-* KNeighborsClassifier - 52.71%
+* LogisticRegression - 81.82%
+* **RandomForestClassifier - 91.70%**
+* SVC - 91.49%
+* KNeighborsClassifier - 63.91%
 
 ![](/images/31.model_performance_SMOTE.png)
 
-Based on the results, Random Forest classifier is the model that able to provide the best prediction output. 
-
-In this section, will try to use random **Under-Sampling Method** to deal with imbalanced classes 
+Based on the results, Random Forest classifier is the model that able to provide the best accuracy score, which is 91.70%.
 
 ![](/images/41.LR_report_us_smote.png)
 ![](/images/42.RF_report_smote.png)
 ![](/images/43.SVC_report_smote.png)
 ![](/images/44.kNeigh_report_smote.PNG)
 
+Based on the results produced by the 4 models after applying SMOTE to the imbalance data sample, it can be seen that there is a slight decreaes in term of the accuracy (all still with at least 80% accuracy except for KNeighborClassifier - 63.91%%). However, all the recall and f1-score are with at least 80% in predecting if a customer will continue or cancel the credit card service, except for KNeighborClassifier model. 
+
+In this project, accuracy and recall are both important. With low recall value, high False Negative prediction, i.e, predicted a customer that will leave as a loyal customer that will not churn, the conseqence can be very bad to the bank as higher cost is needed to acquire new customer than maintaining existing customer. 
+
+Hence, treating imbalance data sample is important. In this case, **RandomForestClassifier model** gives the best performance, where all the precision, recall and f1-score are with at least 90%. 

@@ -175,7 +175,7 @@ Performance of the model as follows: <br>
 
 ![](/images/29.model_performance_basic.png)
 
-Based on the result, RandomForestClassifier is able to produce the best accuracy score, which is 92.53%. However, the value for the recall and R1 are extremely low (for Logistic Regression and KNeighborsClassifier. 
+Based on the result, RandomForestClassifier is able to produce the best accuracy score, which is 92.53%. However, the value for the recall and R1 are extremely low (for Logistic Regression and KNeighborsClassifier). 
 
 ![](/images/33.LR_report.png)
 ![](/images/34.RF_report.png)
@@ -183,6 +183,16 @@ Based on the result, RandomForestClassifier is able to produce the best accuracy
 ![](/images/36.kNeigh_report.png)
 
 #### Machine Learning Models with Under-Sampling Method in Treating Imbalance Data Sample
+
+Performance of the model as follows: <br>
+* LogisticRegression - 77.45%
+* **RandomForestClassifier - 89.59%**
+* SVC - 89.47%
+* KNeighborsClassifier - 52.71%
+
+Based on the results, Random Forest classifier is the model that able to provide the best prediction output. 
+
+In this section, will try to use random **Under-Sampling Method** to deal with imbalanced classes 
 
 ![](/images/37.LR_report_us.png)
 ![](/images/38.RF_report_us.png)

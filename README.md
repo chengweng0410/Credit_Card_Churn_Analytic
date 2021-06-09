@@ -199,5 +199,5 @@ In this section, will try to use random **Under-Sampling Method** to deal with i
 ![](/images/41.LR_report_us_smote.png)
 ![](/images/42.RF_report_smote.png)
 ![](/images/43.SVC_report_smote.png)
-![](/images/44.kNeigh_report_smote.png)
+![](/images/44.kNeigh_report_smote.PNG)
 

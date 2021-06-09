@@ -164,3 +164,14 @@ Three models have been selected: <br>
 
 Also, we will first develop a machine learning model by using the imbalace data. Results generated will be observed. Then, another model will be developed and trained by using balanced data that treated by Under-Sampling, Random-Over Sampling and SMOTE methods.
 
+## Performane Evaluation
+
+Performance of the model as follows: <br>
+* LogisticRegression - 86.36%
+* RandomForestClassifier - 92.53%
+* SVC - 92.43%
+* KNeighborsClassifier - 83.16%
+![](/images/29.model_performance_basic.png)
+
+Based on the result, LogisticRegression is able to produce the best accuracy score, which is 79.62%.
+

@@ -168,11 +168,16 @@ Also, we will first develop a machine learning model by using the imbalace data.
 
 Performance of the model as follows: <br>
 * LogisticRegression - 86.36%
-* RandomForestClassifier - 92.53%
+* **RandomForestClassifier - 92.53%**
 * SVC - 92.43%
 * KNeighborsClassifier - 83.16%
-*<br>
+<br>
 ![](/images/29.model_performance_basic.png)
 
-Based on the result, LogisticRegression is able to produce the best accuracy score, which is 79.62%.
+Based on the result, RandomForestClassifier is able to produce the best accuracy score, which is 92.53%. However, the value for the recall and R1 are extremely low. 
+
+![](/images/33.LR_report.png)
+![](/images/34.RF_report.png)
+![](/images/35.SVC_report.png)
+![](/images/36.kNeigh_report.png)
 

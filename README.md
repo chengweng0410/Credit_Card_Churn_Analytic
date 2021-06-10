@@ -199,8 +199,8 @@ Based on the results, Random Forest classifier is the model that able to provide
 ![](/images/43.SVC_report_smote.png)
 ![](/images/44.kNeigh_report_smote.PNG)
 
-Based on the results produced by the 4 models after applying SMOTE to the imbalance data sample, it can be seen that there is a slight decreaes in term of the accuracy (all still with at least 80% accuracy except for KNeighborClassifier - 63.91%%). However, all the recall and f1-score are with at least 80% in predecting if a customer will continue or cancel the credit card service, except for KNeighborClassifier model. 
+Based on the results produced by the 4 models after applying SMOTE to the imbalance data sample, it can be seen that there is a slight decreaes in term of the accuracy (all still with at least 80% accuracy except for KNeighborClassifier - 63.91%). However, all the recall and f1-score are with at least 80% in predecting if a customer will continue or cancel the credit card service, except for KNeighborClassifier model. 
 
-In this project, accuracy and recall are both important. With low recall value, high False Negative prediction, i.e, predicted a customer that will leave as a loyal customer that will not churn, the conseqence can be very bad to the bank as higher cost is needed to acquire new customer than maintaining existing customer. 
+In this project, accuracy and recall are both important. With low recall value, high False Negative prediction, i.e, predicted a customer that will leave as a loyal customer, the conseqence can be very bad to the bank as higher cost is needed to acquire new customer than maintaining existing customer. 
 
 Hence, treating imbalance data sample is important. In this case, **RandomForestClassifier model** gives the best performance, where all the precision, recall and f1-score are with at least 90%. 

@@ -8,8 +8,7 @@ In this project a prediction model is developed to predict if a customer will ch
 
 **Python Version:** 3.7 <br>
 **Packages:** numpy, pandas, seaborn, matplotlib, sklearn <br>
-**IDE:** Google Colab <br>
-**Dashboard Software:** Google Data Studio <br>
+**IDE:** Google Colab <br> 
 **Dataset:** https://www.kaggle.com/sakshigoyal7/credit-card-customers 
 
 ## Data Gathering

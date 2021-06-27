@@ -14,7 +14,7 @@ In this project a prediction model is developed to predict if a customer will ch
 **Packages:** numpy, pandas, seaborn, matplotlib, sklearn <br>
 **IDE:** Google Colab <br> 
 **Dataset:** https://www.kaggle.com/sakshigoyal7/credit-card-customers <br>
-**Python Script:** [Notebook](https://colab.research.google.com/drive/1jjykwZWvngHiko-Y3ZneIv0AD-iB5rJG?usp=sharing)
+**Python Script:** [Notebook](https://colab.research.google.com/drive/1RX6vvzO4sldg3LFnFMI6ihBZlhZiOX2T?usp=sharing)
 
 ## Data Gathering
 

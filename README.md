@@ -1,4 +1,4 @@
-# Credit_Card_Churn_Analytic
+# Credit Card Churn Analytic
 
 ## <p align="right">[Portfolio Main Page](https://github.com/WengWeng0410/Weng_Portfolio)</p>
 

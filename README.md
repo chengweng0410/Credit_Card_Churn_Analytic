@@ -157,7 +157,7 @@ Based on the given dataset, it is ready to use for analysis.
 
 ## Model Building
 
-Prior to the model building, the data that is with non numeric type (Customer_Status) has to be converted to numeric value. **LabelEncoder** from **sklearn.preprocesing** is used to accomplish the conversion task. Besides that, **MinMaxScaler** from **sklearn.preprocesing** is also used to scale the values of Credit_Limit, Total_Revolving_Bal (RM), Total_Trans_Amt (RM) and Total_Trans_Ct into range of 0 to 1. Reason being this feature is measured at different scale and do not contribute equally in model training and may ended with creating a bias. <br> 
+Prior to the model building, the data that is with non numeric type (Customer_Status) has to be converted to numeric value. **LabelEncoder** from **sklearn.preprocesing** is used to accomplish the conversion task. Besides that, **MinMaxScaler** from **sklearn.preprocessing** is also used to scale the values of Credit_Limit, Total_Revolving_Bal (RM), Total_Trans_Amt (RM) and Total_Trans_Ct into range of 0 to 1. Reason being this feature is measured at different scale and do not contribute equally in model training and may ended with creating a bias. <br> 
 
 **train_test_split** from **sklearn.model_selection** is also used to separat the dataset into training and testing set of data. In this project, 80% of the dataset is used as training set and the remaining 20% is used as testing set. <br>
 Three models have been selected: <br>

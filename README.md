@@ -1,11 +1,6 @@
 # Credit Card Churn Analytic
 
-## Group Member
-
-1. Lee Song Jian
-2. Lau Teck Poh
-
-**Lecturer**: Dr Fong Cheng Weng
+## <p align="right">[Portfolio Main Page](https://github.com/WengWeng0410/Weng_Portfolio)</p>
 
 Customer retention is crucial in different businesses as acquiring new customers is often costlier than keeping existing customers. In this project, the aim is to predict if existing customers of a bank will leave its credit card services. Before this a customer leave, the bank can take proactive action so that the customers are continue the credit card service with the bank.
 
